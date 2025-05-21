@@ -12,7 +12,7 @@ import uuid
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_excel("c:/Users/Nisrina/Downloads/NCT_DREAM_KONSER.xlsx")
+    df = pd.read_excel("c:/Users/auliy/Downloads/NCT_DREAM_KONSER.xlsx")
     return df
 
 df = load_data()
