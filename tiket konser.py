@@ -30,7 +30,7 @@ if menu == "🧠 Prediksi Kursi":
     st.title("🧠 Prediksi Kursi Laku atau Tidak")
     
     # Tambahkan gambar di sini
-    st.image("660b7f8281215-tiket-konser-tds-3-nct-dream_1265_711.jpg", caption="🎫 Kursi Konser", use_column_width=True)
+    st.image("660b7f8281215-tiket-konser.jpg", caption="🎫 Kursi Konser", use_container_width=True)
     
     df_pred = df.copy()
     # Ubah status kursi ke 0 dan 1
