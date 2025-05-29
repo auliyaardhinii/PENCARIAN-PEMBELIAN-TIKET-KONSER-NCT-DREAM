@@ -12,7 +12,7 @@ import uuid
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_excel("c:\\Users\\auliy\\Downloads\\NCT_DREAM_KONSER.xlsx")
+    df = pd.read_excel("NCT_DREAM_KONSER.xlsx")
     return df
 
 df = load_data()
@@ -30,7 +30,7 @@ if menu == "🧠 Prediksi Kursi":
     st.title("🧠 Prediksi Kursi Laku atau Tidak")
     
     # Tambahkan gambar di sini
-    st.image("c:\\Users\\auliy\\Downloads\\660b7f8281215-tiket-konser-tds-3-nct-dream_1265_711.jpg", caption="🎫 Kursi Konser", use_container_width=True)
+    st.image("660b7f8281215-tiket-konser-tds-3-nct-dream_1265_711.jpg", caption="🎫 Kursi Konser", use_container_width=True)
     
     df_pred = df.copy()
     # Ubah status kursi ke 0 dan 1
